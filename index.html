@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ 
+  <form action="https://formspree.io/patrycjalobry@gmail.com" method="POST">
+      <label for="imie">Imię</label><br>
+      <input type="text" name="imie" id="imie"> <br>
+      <label for="nazwisko">Nazwisko</label><br>
+      <input type="text" name="nazwisko" id="nazwisko"><br>
+      <label for="mail">mail</label><br>
+      <input type="text" name="mail" id="mail"><br>
+      <label for="telefon">telefon</label><br>
+      <input type="tel" name="telefon" id="telefon"><br>
+      
+      <label for="miasto">wybór miastsa</label><br>
+      <select name="miasto" id="miasto" disabled>
+          <option value="krakow">Kraków</option>
+          <option value="warszawa">Warszawa</option>
+          <option value="gdansk">Gdańsk</option>
+      </select><br>
+      
+      
+      <label for="plec">wybierz płeć</label><br>
+      <select name="plec" id="plec">
+          <option value="">kobieta</option>
+      </select>
+      <label for="plec">wybierz płeć</label><br>
+      
+      <label for="kob">kobieta</label><br>
+      <input type="radio" name="plec" id="kob">
+      <label for="men">mężczyzna</label><br>
+      
+      
+      
+      <input type="radio" name="plec" id="men"><br>
+      
+      
+      <label for="wiadomosc">Wiadomość</label><br>
+      <textarea name="wiadomosc" id="wiadomosc" cols="30" rows="10"></textarea><br>
+      <label for="zgoda">Zgoda na przetwarzanie danych osobowych</label>
+      <input type="checkbox" name="checkbox" id="zgoda" ><br>
+      
+      <input class="submit" type="submit" value="Send">  
+      </form>         
+</body>
+</html>
